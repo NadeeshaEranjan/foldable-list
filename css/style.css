@@ -1,0 +1,79 @@
+.foldable-list-container{
+	background: #151515;
+	color: #fff;
+}
+
+.foldable-list-container .header h3{
+	margin: 0px;
+	padding: 15px;
+}
+
+.foldable-list{
+	margin-bottom: 15px;
+}
+
+.foldable-list .panel-default{
+	border-radius: 0px;
+	border: none;
+	margin-top: 0px !important;
+}
+
+.foldable-list .panel-default .panel-heading{
+	padding: 0px;
+	border-radius: 0px;
+	background-color: #C24445;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.foldable-list .panel-default .panel-title a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.foldable-list .panel-body{
+	padding: 0px;
+	background: #111;
+}
+
+.foldable-list .panel-body p{
+	margin: 0px;
+	color: #111;
+	background: #fff;
+	text-align: right;
+	padding: 10px 5px;
+}
+
+.foldable-list .panel-body p:nth-child(odd){
+	-webkit-transform: perspective(75px) rotateX(-7deg) scale(0.97);
+	margin-bottom: -3px;
+	box-shadow: 0px 0px 10px -4px #111;
+}
+
+.foldable-list .panel-body p:nth-child(even){
+	-webkit-transform: perspective(75px) rotateX(7deg) scale(0.97);
+	margin-bottom: -2px;
+	box-shadow: 0px 0px 10px -2px #111;
+}
+
+.foldable-list .panel-body p span.time{
+	float: left;
+	font-weight: bold;
+}
+
+.foldable-list .panel-body p span.desc{
+	/* float: right */
+}
+
+p.footer{
+	text-align: center;
+}
+
+p.footer a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+
